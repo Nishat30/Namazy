@@ -10,9 +10,7 @@ export const usePrayer = () => {
   }
   return context;
 };
-//Heart of the Quran
-// Define the base structure for prayersData (Surahs and Arabic names are static)
-// Initial times will be 'Loading...' or 'N/A' until fetched
+
 const basePrayersData = {
   fajr: {
     name: 'Fajr',

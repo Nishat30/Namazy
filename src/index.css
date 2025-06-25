@@ -4,9 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
-
-
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -74,11 +73,7 @@
     --ring: 158 64% 52%;
   }
 }
-
 @layer base {
-  * {
-    @apply border-border;
-  }
 
   body {
     @apply bg-gradient-to-br from-emerald-50 via-white to-amber-50 dark:from-emerald-950 dark:via-emerald-900 dark:to-amber-950 text-foreground transition-colors duration-300;
@@ -98,4 +93,7 @@
     font-family: 'Scheherazade New', serif;
     direction: rtl;
   }
+}
+[role="region"][aria-label="Notifications"] {
+  display: none !important;
 }

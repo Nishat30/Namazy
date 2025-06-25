@@ -16,7 +16,6 @@ const App = () => {
       <TooltipProvider>
         <ThemeProvider>
           <PrayerProvider>
-              <Toaster />
               <Sonner />
               <Dashboard />
           </PrayerProvider>
